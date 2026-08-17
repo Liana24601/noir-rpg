@@ -1,0 +1,453 @@
+:: StoryTitle
+Dues to Pay
+
+
+:: StoryData
+{
+  "ifid": "8C3904D4-E2BD-4C7A-85EA-570CB72340B9",
+  "format": "SugarCube",
+  "format-version": "2.37.3",
+  "start": "Start",
+  "zoom": 1
+}
+
+
+:: Start
+I’ve had many types stumble into my office.
+
+[[Next|S1]]
+
+:: S1
+Violent criminals. Beautiful dames. 
+
+[[Next|S2]]
+
+:: S2
+Even those law enforcement types, who think flashing a badge makes them some sorta King.
+
+[[Next|S3]]
+
+:: S3
+Always asking me to find things.
+
+[[Next|S4]]
+
+:: S4
+Find the murderer.
+
+[[Next|S5]]
+
+:: S5
+Find their friend.
+
+[[Next|S6]]
+
+:: S6
+Find their goddamn stolen pearls.
+
+[[Next|S7]]
+
+:: S7
+I don’t mind that. The green flows in, and that's all that matters to me.
+
+[[Next|S8]]
+
+:: S8
+But there is one type that I really can’t stand. That personality that makes me wanna push a guy off a cliff.
+
+[[Next|S9]]
+
+:: S9
+God, I hate idiots.
+
+[[Next|S10]]
+
+:: S10
+// The scene reveals.
+
+[[Next|S11]]
+
+:: S11
+// You sit in your office.
+
+[[Next|S12]]
+
+:: S12
+// A man sits in front of you.
+
+[[Next|S13]]
+
+:: S13
+// In your left hand you hold a cigar.
+
+[[Next|S14]]
+
+:: S14
+// In your right hand is a black fountain pen.
+
+[[Next|S15]]
+
+:: S15
+// A blank legal pad lies on the desk in fron of you.
+
+[[Next|S16]]
+
+:: S16
+// The rain beats softly against your windows.
+
+[[Next|S17]]
+
+:: S17
+// The blinds are drawn low.
+
+[[Next|S18]]
+
+:: S18
+// You sigh in frustration.
+
+[[Next|S19]]
+
+:: S19
+You: Well? Say it, spit it out. Haven't got all day.
+
+[[Next|S20]]
+
+:: S20
+// The stranger who sits in front of you is peculiar to say the least.
+
+[[Next|S21]]
+
+:: S21
+// The blinds block the light and cover his face in shadow.
+
+[[Next|S22]]
+
+:: S22
+// You cannot identify any of his features.
+
+[[Next|S23]]
+
+:: S23
+// Something tells you he prefers it that way.
+
+[[Next|S24]]
+
+:: S24
+???: Well, two weeks ago, I paid a man to kill me. Gave him a month. No day. No time.
+
+[[Next|S25]]
+
+:: S25
+You: Which man?
+
+[[Next|S26]]
+
+:: S26
+???: ...My drug dealer.
+
+[[Next|S27]]
+
+:: S27
+// You scoff derisively.
+
+[[Next|S28]]
+
+:: S28
+You: Not the fastest bullet in the barrel, are you?
+
+[[Next|S29]]
+
+:: S29
+???: Don't. It was a dark time for me, and I needed someone kind to do it. Dug was the kindest man I ever met.
+
+[[Next|S30]]
+
+:: S30
+You: Huh. A kind drug dealer. That's new.
+
+[[Next|S31]]
+
+:: S31
+// The figure in front of you stiffens, agitated.
+
+[[Next|S32]]
+
+:: S32
+???: A man like you would never understand. Sitting happily atop your high horse.
+
+[[Next|S33]]
+
+:: S33
+???: I wanted to drown. I wanted to end me. But then, I found what I needed.
+
+[[Next|S34]]
+
+:: S34
+You: And what's that?
+
+[[Next|S36]]
+
+:: S36
+???: Hope.
+
+[[Next|S37]]
+
+:: S37
+You: (Fantastic. Not only is he an idiot, he's a sentimental. That's even worse.)
+
+[[Next|S38]]
+
+:: S38
+You: That's sweet, pal. Really. But why're you here? What do you want from me?
+
+[[Next|S39]]
+
+:: S39
+???: I need you to find him. I need you to stop him.
+
+[[Next|S40]]
+
+:: S40
+You: From killing you?
+
+[[Next|S41]]
+
+:: S41
+???: Yes.
+
+[[Next|S42]]
+
+:: S42
+// You chuckle dryly.
+
+[[Next|S43]]
+
+:: S43
+You: What an odd job. I might have refused if you hadn't promised me such a pretty penny.
+
+[[Next|S44]]
+
+:: S44
+You: Alright, stranger, I'll do it for you.
+
+[[Next|S45]]
+
+:: S45
+You: But tell me one thing...what changed your mind? The world ain't a happy place.
+
+[[Next|S47]]
+
+:: S47
+You: Why stay?
+
+[[Next|S48]]
+
+:: S48
+???: There was...a question I needed answered. I was lost. My life was empty.
+
+[[Next|S49]]
+
+:: S49
+???: But after I filled it with other things, my life became full again. I didn't need the answer anymore.
+
+[[Next|S50]]
+
+:: S51
+You: (Damn it. I hate a guy who talks in riddles. Shouldn't have asked him in the first place.)
+
+[[Next|S52]]
+
+:: S52
+You: But what was the question?
+
+[[Next|S53]]
+
+:: S53
+// A few beams of light escape through the slits of the blinds...
+
+[[Next|S54]]
+
+:: S54
+// Illuminating the lower half of the stranger's face for a split second.
+
+[[Next|S55]]
+
+:: S56
+// Perhaps you were imagining it but...
+
+[[Next|S56]]
+
+:: S57
+// You thought you saw the glimpse of a smile.
+
+[[Next|S57]]
+
+:: S57
+???: Can a debt of blood...
+
+[[Next|S58]]
+
+:: S58
+...truly be repaid?
+
+[[Next|S59]]
+
+:: S59
+(add dues to pay title card here)
+
+[[Next|P1]]
+
+:: P1
+// You stand in an office that is not your own.
+
+[[Next|P2]]
+
+:: P2
+// It is hopelessly cluttered with case files and completely devoid of the cleanliness of your own office.
+
+[[Next|P3]]
+
+:: P3
+// This, strangely, does not bother you however. 
+
+[[Next|P4]]
+
+:: P4
+// Mostly due the cheery, spectacles-wearing middle aged man sitting on the disorganized desk in front of you.
+
+[[Next|P5]]
+
+:: P5
+// His presence, all but unfamiliar, puts you at ease.
+
+[[Next|P6]]
+
+:: P6
+// A naturally friendly creature, a true confidant.
+
+[[Next|P7]]
+
+:: P7
+// You grin.
+
+[[Next|P8]]
+
+:: P8
+You: Johnson, good to see you. Whatcha got for me?
+
+[[Next|P9]]
+
+:: P9
+Johnson: Hey boss! We've tried finding the dealer but your client wasn't very helpful. His descriptions were vague and he refused to meet with a sketch artist.
+
+[[Next|P10]]
+
+:: P10
+You: Yeah, Shadow Man's not the nicest company. Don't take it personally.
+
+[[Next|P11]]
+
+:: P11
+Johnson: Shadow Man?
+
+[[Next|P12]]
+
+:: P12
+You: Gave him a nickname. Makes him less intimidating.
+
+[[Next|P13]]
+
+:: P13
+Johnson: I dunno, boss. He's still pretty scary.
+
+[[Next|P14]]
+
+:: P14
+You: You're darn right, he gave me the shivers.
+
+[[Next|P15]]
+
+:: P15
+Johnson: Anyways, we did find some possible contacts that would know about his whereabouts.
+
+[[Next|P15.4]]
+
+:: P15.4
+// He hands you three case files, talking maiably as you flip through them.
+
+[[Next|P16]]
+
+:: P16
+Katrina Kordoff - She owns that luxurious bar on South Street. She's a huge gossip and knows everyone's business. Rumor is she can charm anyone with those pretty eyes of hers. Be careful though! I heard she's a dangerous one.
+
+[[Next|P17]]
+
+:: P17
+Jayl Sael - Most well known (and feared) crimunal this side of the city. An accomplished bounty hunter who can find anyone and everyone. He seems like a very shady fellow. Keeps to himself. But if you need to locate someone without any clues? He's your guy.
+
+[[Next|P18]]
+
+:: P18
+Verie Newman - The newest junior officer on the force. Nice kid, bit a chatterbox though. Would probably be able to spill the beans on any recent criminal activity. If you talk to him, you're sure to get some good info that only the police could know. He's on a museum shift tonight, so maybe you can catch him for a chat!
+
+[[Next|P19]]
+
+:: P19
+Johnson: So, which one are you gonna go after?
+
+[[Katrina Kordoff| K1]]
+
+[[Jayl Sael| J1]]
+
+[[Verie Newman| V1]]
+
+:: K1
+// You lift Kordoff's file with interest. A bar, especially one favored by the city's criminals, is a hotspot of information, you think.
+
+[[Next|K2]]
+
+:: K2
+// Johnson adjusts his glasses.
+
+[[Next|K3]]
+
+:: K3
+Johnson: You sure, boss? Hearsay can only get you so far, not the most pragmatic option.
+
+[[Next|K4]]
+
+:: K4
+Dunno. In my experience, a man is most sincere when he's drunk.
+
+[[Next|K5]]
+
+:: K5
+Johnson: Boss, come on now. You hate alcohol.
+
+[[Next|K6]]
+
+:: K6
+// You chuckle.
+
+[[Next|K7]]
+
+:: K7
+You: Damn right, Johnson. But still, my gut's telling me it's worth a try.
+
+[[Next|K8]]
+
+:: K8
+// Johnson grins excitedly.
+
+[[Next|K9]]
+
+:: K10
+Johnson: Alright, then. Best of luck, Detective Blackwell!
+
+[[Next|K11]]
+
+:: K11
+~
+
+[[Next|K12]]
+
