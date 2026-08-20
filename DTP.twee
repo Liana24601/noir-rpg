@@ -11,13 +11,29 @@ Dues to Pay
   "zoom": 1
 }
 
+:: Story Stylesheet [stylesheet]
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  transition: background-image 0.5s ease;
+}
 
-:: Start
+body.forest-bg {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiVclneOmuajsH22KzwPP_PQT_yCCUmUHs2MPIDi1kjqCCastoQL7d8pWS&s=10");
+}
+
+/* testing for different backgrounds, will use later */
+body.desert-bg {
+  background-image: url("https://media.istockphoto.com/id/968272302/vector/daytime-cartoon-flat-style-desert-landscape.jpg?s=612x612&w=0&k=20&c=bXZoHX7RsebQn6i9KX17W7ix6PbRL-AKAKdPjWAkljU=");
+}
+
+:: Start [forest-bg]
 I’ve had many types stumble into my office.
 
 [[Next|S1]]
 
-:: S1
+:: S1 [desert-bg]
 Violent criminals. Beautiful dames. 
 
 [[Next|S2]]
@@ -250,7 +266,7 @@ You: Why stay?
 :: S49
 ???: But after I filled it with other things, my life became full again. I didn't need the answer anymore.
 
-[[Next|S50]]
+[[Next|S51]]
 
 :: S51
 You: (Damn it. I hate a guy who talks in riddles. Shouldn't have asked him in the first place.)
@@ -272,12 +288,12 @@ You: But what was the question?
 
 [[Next|S55]]
 
-:: S56
+:: S55
 // Perhaps you were imagining it but...
 
 [[Next|S56]]
 
-:: S57
+:: S56
 // You thought you saw the glimpse of a smile.
 
 [[Next|S57]]
@@ -417,7 +433,7 @@ Johnson: You sure, boss? Hearsay can only get you so far, not the most pragmatic
 [[Next|K4]]
 
 :: K4
-Dunno. In my experience, a man is most sincere when he's drunk.
+You: Dunno. Maybe she's got gossip to uncover?? In my experience, a man is most sincere when he's drunk.
 
 [[Next|K5]]
 
@@ -441,13 +457,52 @@ You: Damn right, Johnson. But still, my gut's telling me it's worth a try.
 
 [[Next|K9]]
 
-:: K10
+:: K9
 Johnson: Alright, then. Best of luck, Detective Blackwell!
 
-[[Next|K11]]
+[[Next|K10]]
 
-:: K11
+:: K10
 ~
 
 [[Next|K12]]
+
+:: K12
+// You stop to admire the outside of The Silk Shot, the sleek and modern bar that's been the talk of the town.
+
+[[Next|K13]]
+
+:: K13
+// The neon lights catch your eyes, but it rattles your nerves for reasons you can’t seem explain.
+
+[[Next|K14]]
+
+:: K14
+// You open the doOr, passing through the crowd of soft murmurs.
+
+[[Next|K15]]
+
+:: K15
+// You approach the bar and absent-mindedly share your order with the bartender as your eyes inspect the customers in their booths.
+
+[[Next|K16]]
+
+:: K16
+You: One gin.
+
+[[Next|K17]]
+
+:: K17
+You: Say, you know if Katrina's around? Need a word.
+
+[[Next|K18]]
+
+:: K18
+// The voice that answers you is not the rough grunt of a bartender.
+
+[[Next|K19]]
+
+:: K19
+// It is smooth and feminine. Soft and alluring.
+
 
