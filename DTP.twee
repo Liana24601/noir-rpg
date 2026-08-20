@@ -17,6 +17,38 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   transition: background-image 0.5s ease;
+  .dialogue-box {
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    width: 80%;
+    max-width: 1000px;
+    
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    
+    padding: 25px 35px;
+    box-sizing: border-box;
+    
+    border: 2px solid #333;
+    border-radius: 4px;
+    
+    font-family: Georgia, serif;
+    font-size: 20px;
+    line-height: 1.5;
+    
+    z-index: 100;
+  }
+  .character-name {
+    color: #c9a86a;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
 }
 
 body.forest-bg {
@@ -29,17 +61,27 @@ body.desert-bg {
 }
 
 :: Start [forest-bg]
-I’ve had many types stumble into my office.
-
-[[Next|S1]]
+<div class="dialogue-box">
+  I've had many types stumble into my office.
+  <span class="next-button">
+    [[Next|S1]]
+  </span>
+</div>
 
 :: S1 [desert-bg]
-Violent criminals. Beautiful dames. 
-
-[[Next|S2]]
+<div class="dialogue-box">
+  <div class="character-name">Detective Blackwell</div>
+  Violent criminals. Beautiful dames.
+  <span class="next-button">
+    [[Next|S2]]
+  </span>
+</div>
 
 :: S2
-Even those law enforcement types, who think flashing a badge makes them some sorta King.
+<div class="dialogue-box">
+  <div class="character-name">Detective Blackwell</div>
+  Even those law enforcement types, who think flashing a badge makes them some sorta King. 
+</div>
 
 [[Next|S3]]
 
