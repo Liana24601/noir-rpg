@@ -61,13 +61,15 @@ body {
 
   .character {
     position: absolute;
-    bottom: 0;
-    max-height: 80vh;
+    bottom: 220px;
+    transform: translateX(-50%);
+
+    max-height: 75vh;
     width: auto;
   }
 
   .katrina {
-    bottom: 45%
+    left: 50%;
   }
 }
 
@@ -541,44 +543,70 @@ body.desert-bg {
 </div>
 
 :: S57
-???: Can a debt of blood...
-
-[[Next|S58]]
+<div class="dialogue-box">
+  <div class="character-name">???</div>
+  Can a debt of blood...
+  <span class="next-button">
+    [[Next|S58]]
+  </span>
+</div>
 
 :: S58
-...truly be repaid?
-
-[[Next|S59]]
+<div class="dialogue-box">
+  ...truly be repaid?
+  <span class="next-button">
+    [[Next|S59]]
+  </span>
+</div>
 
 :: S59
 (add dues to pay title card here)
 
-[[Next|P1]]
+<div class="dialogue-box">
+  <span class="next-button">
+    [[Next|P1]]
+  </span>
+</div>
 
 :: P1
-// You stand in an office that is not your own.
-
-[[Next|P2]]
+<div class="dialogue-box">
+  // You stand in an office that is not your own. //
+  <span class="next-button">
+    [[Next|P2]]
+  </span>
+</div>
 
 :: P2
-// It is hopelessly cluttered with case files and completely devoid of the cleanliness of your own office.
-
-[[Next|P3]]
+<div class="dialogue-box">
+  // It is hopelessly cluttered with case files and completely devoid of the cleanliness of your own office. //
+  <span class="next-button">
+    [[Next|P3]]
+  </span>
+</div>
 
 :: P3
-// This, strangely, does not bother you however. 
-
-[[Next|P4]]
+<div class="dialogue-box">
+  // This, strangely, does not bother you however. //
+  <span class="next-button">
+    [[Next|P4]]
+  </span>
+</div>
 
 :: P4
-// Mostly due the cheery, spectacles-wearing middle aged man sitting at the disorganized desk in front of you.
-
-[[Next|P5]]
+<div class="dialogue-box">
+  // Mostly due to the cheery, spectacles wearing middle aged man sitting at the disorganized desk in front of you. //
+  <span class="next-button">
+    [[Next|P5]]
+  </span>
+</div>
 
 :: P5
-// His presence, extremely open and trusting, puts you at ease.
-
-[[Next|P6]]
+<div class="dialogue-box">
+  // His presence, extremely open and trusting, puts you at ease. A naturally friendly creature, a true confidant. //
+  <span class="next-button">
+    [[Next|P6]]
+  </span>
+</div>
 
 :: P6
 // A naturally friendly creature, a true confidant.
