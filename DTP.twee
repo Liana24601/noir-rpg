@@ -49,10 +49,30 @@ body {
     text-transform: uppercase;
     letter-spacing: 2px;
   }
+  .character-layer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 10;
+  }
+
+  .character {
+    position: absolute;
+    bottom: 0;
+    max-height: 80vh;
+    width: auto;
+  }
+
+  .katrina {
+    bottom: 45%
+  }
 }
 
 body.forest-bg {
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiVclneOmuajsH22KzwPP_PQT_yCCUmUHs2MPIDi1kjqCCastoQL7d8pWS&s=10");
+  background-image: url("https://images.unsplash.com/photo-1491466424936-e304919aada7?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8MTkyMHgxMDgwfGVufDB8fDB8fHww");
 }
 
 /* testing for different backgrounds, will use later */
@@ -69,6 +89,9 @@ body.desert-bg {
 </div>
 
 :: S1 [desert-bg]
+<div class="character-layer">
+    <img class="character katrina" src="images/katrina.png">
+</div>
 <div class="dialogue-box">
   <div class="character-name">Detective Blackwell</div>
   Violent criminals. Beautiful dames.
@@ -79,266 +102,443 @@ body.desert-bg {
 
 :: S2
 <div class="dialogue-box">
-  <div class="character-name">Detective Blackwell</div>
   Even those law enforcement types, who think flashing a badge makes them some sorta King. 
+  <span class="next-button">
+    [[Next|S3]]
+  </span>
 </div>
 
-[[Next|S3]]
-
 :: S3
-Always asking me to find things.
-
-[[Next|S4]]
+<div class="dialogue-box">
+  Always asking me to find things.
+  <span class="next-button">
+    [[Next|S4]]
+  </span>
+</div>
 
 :: S4
-Find the murderer.
-
-[[Next|S5]]
+<div class="dialogue-box">
+  Find the murderer.
+  <span class="next-button">
+    [[Next|S5]]
+  </span>
+</div>
 
 :: S5
-Find their friend.
-
-[[Next|S6]]
+<div class="dialogue-box">
+  Find their friend.
+  <span class="next-button">
+    [[Next|S6]]
+  </span>
+</div>
 
 :: S6
-Find their goddamn stolen pearls.
-
-[[Next|S7]]
+<div class="dialogue-box">
+  Find their goddamn stolen pearls.
+  <span class="next-button">
+    [[Next|S7]]
+  </span>
+</div>
 
 :: S7
-I don’t mind that. The green flows in, and that's all that matters to me.
-
-[[Next|S8]]
+<div class="dialogue-box">
+  I don’t mind that. The green flows in, and that's all that matters to me.
+  <span class="next-button">
+    [[Next|S8]]
+  </span>
+</div>
 
 :: S8
-But there is one type that I really can’t stand. That personality that makes me wanna push a guy off a cliff.
-
-[[Next|S9]]
+<div class="dialogue-box">
+  But there is one type that I really can’t stand. That personality that makes me wanna push a guy off a cliff.
+  <span class="next-button">
+    [[Next|S9]]
+  </span>
+</div>
 
 :: S9
-God, I hate idiots.
-
-[[Next|S10]]
+<div class="dialogue-box">
+  God, I hate idiots.
+  <span class="next-button">
+    [[Next|S10]]
+  </span>
+</div>
 
 :: S10
-// The scene reveals.
-
-[[Next|S11]]
+<div class="dialogue-box">
+  // The scene reveals. //
+  <span class="next-button">
+    [[Next|S11]]
+  </span>
+</div>
 
 :: S11
-// You sit in your office.
-
-[[Next|S12]]
+<div class="dialogue-box">
+  // You sit in your office. //
+  <span class="next-button">
+    [[Next|S12]]
+  </span>
+</div>
 
 :: S12
-// A man sits in front of you.
-
-[[Next|S13]]
+<div class="dialogue-box">
+  // A man sits in front of you. //
+  <span class="next-button">
+    [[Next|S13]]
+  </span>
+</div>
 
 :: S13
-// In your left hand you hold a cigar.
-
-[[Next|S14]]
+<div class="dialogue-box">
+  // In your left hand you hold a cigar. //
+  <span class="next-button">
+    [[Next|S14]]
+  </span>
+</div>
 
 :: S14
-// In your right hand is a black fountain pen.
-
-[[Next|S15]]
+<div class="dialogue-box">
+  // In your right hand is a black fountain pen. //
+  <span class="next-button">
+    [[Next|S15]]
+  </span>
+</div>
 
 :: S15
-// A blank legal pad lies on the desk in fron of you.
-
-[[Next|S16]]
+<div class="dialogue-box">
+  // A blank legal pad lies on the desk in front of you. //
+  <span class="next-button">
+    [[Next|S16]]
+  </span>
+</div>
 
 :: S16
-// The rain beats softly against your windows.
-
-[[Next|S17]]
+<div class="dialogue-box">
+  // The rain beats softly against your windows. //
+  <span class="next-button">
+    [[Next|S17]]
+  </span>
+</div>
 
 :: S17
-// The blinds are drawn low.
-
-[[Next|S18]]
+<div class="dialogue-box">
+  // The blinds are drawn low. //
+  <span class="next-button">
+    [[Next|S18]]
+  </span>
+</div>
 
 :: S18
-// You sigh in frustration.
-
-[[Next|S19]]
+<div class="dialogue-box">
+  // You sigh in frustration. //
+  <span class="next-button">
+    [[Next|S19]]
+  </span>
+</div>
 
 :: S19
-You: Well? Say it, spit it out. Haven't got all day.
-
-[[Next|S20]]
+<div class="dialogue-box">
+  <div class="character-name">Detective Blackwell</div>
+  Well? Say it, spit it out. Haven't got all day.
+  <span class="next-button">
+    [[Next|S20]]
+  </span>
+</div>
 
 :: S20
-// The stranger who sits in front of you is peculiar to say the least.
-
-[[Next|S21]]
+<div class="dialogue-box">
+  // The stranger who sits in front of you is peculiar to say the least. //
+  <span class="next-button">
+    [[Next|S21]]
+  </span>
+</div>
 
 :: S21
-// The blinds block the light and cover his face in shadow.
-
-[[Next|S22]]
+<div class="dialogue-box">
+  // The blinds block the light and cover his face in shadow. //
+  <span class="next-button">
+    [[Next|S22]]
+  </span>
+</div>
 
 :: S22
-// You cannot identify any of his features.
-
-[[Next|S23]]
+<div class="dialogue-box">
+  // You cannot identify any of his features. //
+  <span class="next-button">
+    [[Next|S23]]
+  </span>
+</div>
 
 :: S23
-// Something tells you he prefers it that way.
-
-[[Next|S24]]
+<div class="dialogue-box">
+  // Something tells you he prefers it that way. //
+  <span class="next-button">
+    [[Next|S24]]
+  </span>
+</div>
 
 :: S24
-???: Well, two weeks ago, I paid a man to kill me. Gave him a month. No day. No time.
-
-[[Next|S25]]
+<div class="dialogue-box">
+  <div class="character-name">???</div>
+  Well, two weeks ago, I paid a man to kill me. Gave him a month. No day. No time.
+  <span class="next-button">
+    [[Next|S25]]
+  </span>
+</div>
 
 :: S25
-You: Which man?
-
-[[Next|S26]]
+<div class="dialogue-box">
+  <div class="character-name">Detective Blackwell</div>
+  Which man?
+  <span class="next-button">
+    [[Next|S26]]
+  </span>
+</div>
 
 :: S26
-???: ...My drug dealer.
-
-[[Next|S27]]
+<div class="dialogue-box">
+  <div class="character-name">???</div>
+  ...My drug dealer.
+  <span class="next-button">
+    [[Next|S27]]
+  </span>
+</div>
 
 :: S27
-// You scoff derisively.
-
-[[Next|S28]]
+<div class="dialogue-box">
+  // You scoff derisively. //
+  <span class="next-button">
+    [[Next|S28]]
+  </span>
+</div>
 
 :: S28
-You: Not the fastest bullet in the barrel, are you?
-
-[[Next|S29]]
+<div class="dialogue-box">
+  <div class="character-name">Detective Blackwell</div>
+  Not the fastest bullet in the barrel, are you?
+  <span class="next-button">
+    [[Next|S29]]
+  </span>
+</div>
 
 :: S29
-???: Don't. It was a dark time for me, and I needed someone kind to do it. Dug was the kindest man I ever met.
-
-[[Next|S30]]
+<div class="dialogue-box">
+  <div class="character-name">???</div>
+  Don't. It was a dark time for me, and I needed someone kind to do it. Dug was the kindest man I ever met.
+  <span class="next-button">
+    [[Next|S30]]
+  </span>
+</div>
 
 :: S30
-You: Huh. A kind drug dealer. That's new.
-
-[[Next|S31]]
+<div class="dialogue-box">
+  <div class="character-name">Detective Blackwell</div>
+  Huh. A kind drug dealer. That's new.
+  <span class="next-button">
+    [[Next|S31]]
+  </span>
+</div>
 
 :: S31
-// The figure in front of you stiffens, agitated.
-
-[[Next|S32]]
+<div class="dialogue-box">
+  // The figure in front of you stiffens, agitated. //
+  <span class="next-button">
+    [[Next|S32]]
+  </span>
+</div>
 
 :: S32
-???: A man like you would never understand. Sitting happily atop your high horse.
-
-[[Next|S33]]
+<div class="dialogue-box">
+  <div class="character-name">???</div>
+  A man like you would never understand. Sitting happily atop your ugly high horse.
+  <span class="next-button">
+    [[Next|S33]]
+  </span>
+</div>
 
 :: S33
-???: I wanted to drown. I wanted to end me. But then, I found what I needed.
-
-[[Next|S34]]
+<div class="dialogue-box">
+  <div class="character-name">???</div>
+  I wanted to drown. I wanted to end me. But then, I found what I needed.
+  <span class="next-button">
+    [[Next|S34]]
+  </span>
+</div>
 
 :: S34
-You: And what's that?
-
-[[Next|S36]]
+<div class="dialogue-box">
+  <div class="character-name">Detective Blackwell</div>
+  And what's that?
+  <span class="next-button">
+    [[Next|S36]]
+  </span>
+</div>
 
 :: S36
-???: Hope.
-
-[[Next|S37]]
+<div class="dialogue-box">
+  <div class="character-name">???</div>
+  Hope.
+  <span class="next-button">
+    [[Next|S37]]
+  </span>
+</div>
 
 :: S37
-You: (Fantastic. Not only is he an idiot, he's a sentimental. That's even worse.)
-
-[[Next|S38]]
+<div class="dialogue-box">
+  <div class="character-name">Detective Blackwell</div>
+  (Fantastic. Not only is he an idiot, he's a sentimental. That's even worse.)
+  <span class="next-button">
+    [[Next|S38]]
+  </span>
+</div>
 
 :: S38
-You: That's sweet, pal. Really. But why're you here? What do you want from me?
-
-[[Next|S39]]
+<div class="dialogue-box">
+  <div class="character-name">Detective Blackwell</div>
+  That's sweet, pal. Really. But why're you here? What do you want from me?
+  <span class="next-button">
+    [[Next|S39]]
+  </span>
+</div>
 
 :: S39
-???: I need you to find him. I need you to stop him.
-
-[[Next|S40]]
+<div class="dialogue-box">
+  <div class="character-name">???</div>
+  I need you to find him. I need you to stop him.
+  <span class="next-button">
+    [[Next|S40]]
+  </span>
+</div>
 
 :: S40
-You: From killing you?
-
-[[Next|S41]]
+<div class="dialogue-box">
+  <div class="character-name">Detective Blackwell</div>
+  From killing you?
+  <span class="next-button">
+    [[Next|S41]]
+  </span>
+</div>
 
 :: S41
-???: Yes.
-
-[[Next|S42]]
+<div class="dialogue-box">
+  <div class="character-name">???</div>
+  Yes.
+  <span class="next-button">
+    [[Next|S42]]
+  </span>
+</div>
 
 :: S42
-// You chuckle dryly.
-
-[[Next|S43]]
+<div class="dialogue-box">
+  // You chuckle dryly. //
+  <span class="next-button">
+    [[Next|S43]]
+  </span>
+</div>
 
 :: S43
-You: What an odd job. I might have refused if you hadn't promised me such a pretty penny.
-
-[[Next|S44]]
+<div class="dialogue-box">
+  <div class="character-name">Detective Blackwell</div>
+  What an odd job. I might have refused if you hadn't promised me such a pretty penny.
+  <span class="next-button">
+    [[Next|S44]]
+  </span>
+</div>
 
 :: S44
-You: Alright, stranger, I'll do it for you.
-
-[[Next|S45]]
+<div class="dialogue-box">
+  <div class="character-name">Detective Blackwell</div>
+  Alright, stranger, I'll do it for you.
+  <span class="next-button">
+    [[Next|S45]]
+  </span>
+</div>
 
 :: S45
-You: But tell me one thing...what changed your mind? The world ain't a happy place.
-
-[[Next|S47]]
+<div class="dialogue-box">
+  <div class="character-name">Detective Blackwell</div>
+  But tell me one thing...what changed your mind? The world ain't a happy place.
+  <span class="next-button">
+    [[Next|S47]]
+  </span>
+</div>
 
 :: S47
-You: Why stay?
-
-[[Next|S48]]
+<div class="dialogue-box">
+  <div class="character-name">Detective Blackwell</div>
+  Why stay?
+  <span class="next-button">
+    [[Next|S48]]
+  </span>
+</div>
 
 :: S48
-???: There was...a question I needed answered. I was lost. My life was empty.
+<div class="dialogue-box">
+  <div class="character-name">???</div>
+  There was...a question I needed answered. I was lost. My life was empty.
+  <span class="next-button">
+    [[Next|S49]]
+  </span>
+</div>
 
-[[Next|S49]]
-
-:: S49
-???: But after I filled it with other things, my life became full again. I didn't need the answer anymore.
-
-[[Next|S51]]
+:: S49 
+<div class="dialogue-box">
+  <div class="character-name">???</div>
+  But after I filled it with other things, my life became full again. I didn't need the answer anymore.
+  <span class="next-button">
+    [[Next|S51]]
+  </span>
+</div>
 
 :: S51
-You: (Damn it. I hate a guy who talks in riddles. Shouldn't have asked him in the first place.)
-
-[[Next|S52]]
+<div class="dialogue-box">
+  <div class="character-name">Detective Blackwell</div>
+  (Damn it. I hate a guy who talks in riddles. Shouldn't have asked him in the first place.)
+  <span class="next-button">
+    [[Next|S52]]
+  </span>
+</div>
 
 :: S52
-You: But what was the question?
-
-[[Next|S53]]
+<div class="dialogue-box">
+  <div class="character-name">Detective Blackwell</div>
+  But what was the question?
+  <span class="next-button">
+    [[Next|S53]]
+  </span>
+</div>
 
 :: S53
-// A few beams of light escape through the slits of the blinds...
-
-[[Next|S54]]
+<div class="dialogue-box">
+  // A few beams of light escape through the slits of the blinds... //
+  <span class="next-button">
+    [[Next|S54]]
+  </span>
+</div>
 
 :: S54
-// Illuminating the lower half of the stranger's face for a split second.
-
-[[Next|S55]]
+<div class="dialogue-box">
+  // Illuminating the lower half of the stranger's face for a split second. //
+  <span class="next-button">
+    [[Next|S55]]
+  </span>
+</div>
 
 :: S55
-// Perhaps you were imagining it but...
-
-[[Next|S56]]
+<div class="dialogue-box">
+  // Perhaps you were imagining it but... //
+  <span class="next-button">
+    [[Next|S56]]
+  </span>
+</div>
 
 :: S56
-// You thought you saw the glimpse of a smile.
-
-[[Next|S57]]
+<div class="dialogue-box">
+  // You thought you saw the glimpse of a smile. //
+  <span class="next-button">
+    [[Next|S57]]
+  </span>
+</div>
 
 :: S57
 ???: Can a debt of blood...
