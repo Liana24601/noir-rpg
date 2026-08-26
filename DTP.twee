@@ -95,7 +95,6 @@ body.desert-bg {
     <img class="character katrina" src="images/katrina.png">
 </div>
 <div class="dialogue-box">
-  <div class="character-name">Detective Blackwell</div>
   Violent criminals. Beautiful dames.
   <span class="next-button">
     [[Next|S2]]
@@ -240,7 +239,7 @@ body.desert-bg {
 
 :: S19
 <div class="dialogue-box">
-  <div class="character-name">Detective Blackwell</div>
+  <div class="character-name">Detective Reid Blackwell</div>
   Well? Say it, spit it out. Haven't got all day.
   <span class="next-button">
     [[Next|S20]]
@@ -290,7 +289,7 @@ body.desert-bg {
 
 :: S25
 <div class="dialogue-box">
-  <div class="character-name">Detective Blackwell</div>
+  <div class="character-name">Detective Reid Blackwell</div>
   Which man?
   <span class="next-button">
     [[Next|S26]]
@@ -316,7 +315,7 @@ body.desert-bg {
 
 :: S28
 <div class="dialogue-box">
-  <div class="character-name">Detective Blackwell</div>
+  <div class="character-name">Detective Reid Blackwell</div>
   Not the fastest bullet in the barrel, are you?
   <span class="next-button">
     [[Next|S29]]
@@ -334,7 +333,7 @@ body.desert-bg {
 
 :: S30
 <div class="dialogue-box">
-  <div class="character-name">Detective Blackwell</div>
+  <div class="character-name">Detective Reid Blackwell</div>
   Huh. A kind drug dealer. That's new.
   <span class="next-button">
     [[Next|S31]]
@@ -369,7 +368,7 @@ body.desert-bg {
 
 :: S34
 <div class="dialogue-box">
-  <div class="character-name">Detective Blackwell</div>
+  <div class="character-name">Detective Reid Blackwell</div>
   And what's that?
   <span class="next-button">
     [[Next|S36]]
@@ -387,7 +386,7 @@ body.desert-bg {
 
 :: S37
 <div class="dialogue-box">
-  <div class="character-name">Detective Blackwell</div>
+  <div class="character-name">Detective Reid Blackwell</div>
   (Fantastic. Not only is he an idiot, he's a sentimental. That's even worse.)
   <span class="next-button">
     [[Next|S38]]
@@ -396,7 +395,7 @@ body.desert-bg {
 
 :: S38
 <div class="dialogue-box">
-  <div class="character-name">Detective Blackwell</div>
+  <div class="character-name">Detective Reid Blackwell</div>
   That's sweet, pal. Really. But why're you here? What do you want from me?
   <span class="next-button">
     [[Next|S39]]
@@ -414,7 +413,7 @@ body.desert-bg {
 
 :: S40
 <div class="dialogue-box">
-  <div class="character-name">Detective Blackwell</div>
+  <div class="character-name">Detective Reid Blackwell</div>
   From killing you?
   <span class="next-button">
     [[Next|S41]]
@@ -440,7 +439,7 @@ body.desert-bg {
 
 :: S43
 <div class="dialogue-box">
-  <div class="character-name">Detective Blackwell</div>
+  <div class="character-name">Detective Reid Blackwell</div>
   What an odd job. I might have refused if you hadn't promised me such a pretty penny.
   <span class="next-button">
     [[Next|S44]]
@@ -449,7 +448,7 @@ body.desert-bg {
 
 :: S44
 <div class="dialogue-box">
-  <div class="character-name">Detective Blackwell</div>
+  <div class="character-name">Detective Reid Blackwell</div>
   Alright, stranger, I'll do it for you.
   <span class="next-button">
     [[Next|S45]]
@@ -458,7 +457,7 @@ body.desert-bg {
 
 :: S45
 <div class="dialogue-box">
-  <div class="character-name">Detective Blackwell</div>
+  <div class="character-name">Detective Reid Blackwell</div>
   But tell me one thing...what changed your mind? The world ain't a happy place.
   <span class="next-button">
     [[Next|S47]]
@@ -467,7 +466,7 @@ body.desert-bg {
 
 :: S47
 <div class="dialogue-box">
-  <div class="character-name">Detective Blackwell</div>
+  <div class="character-name">Detective Reid Blackwell</div>
   Why stay?
   <span class="next-button">
     [[Next|S48]]
@@ -494,7 +493,7 @@ body.desert-bg {
 
 :: S51
 <div class="dialogue-box">
-  <div class="character-name">Detective Blackwell</div>
+  <div class="character-name">Detective Reid Blackwell</div>
   (Damn it. I hate a guy who talks in riddles. Shouldn't have asked him in the first place.)
   <span class="next-button">
     [[Next|S52]]
@@ -503,7 +502,7 @@ body.desert-bg {
 
 :: S52
 <div class="dialogue-box">
-  <div class="character-name">Detective Blackwell</div>
+  <div class="character-name">Detective Reid Blackwell</div>
   But what was the question?
   <span class="next-button">
     [[Next|S53]]
@@ -604,143 +603,226 @@ body.desert-bg {
 <div class="dialogue-box">
   // His presence, extremely open and trusting, puts you at ease. A naturally friendly creature, a true confidant. //
   <span class="next-button">
-    [[Next|P6]]
+    [[Next|P7]]
   </span>
 </div>
 
-:: P6
-// A naturally friendly creature, a true confidant.
-
-[[Next|P7]]
-
 :: P7
-// You grin.
-
-[[Next|P8]]
+<div class="dialogue-box">
+  // You grin. //
+  <span class="next-button">
+    [[Next|P8]]
+  </span>
+</div>
 
 :: P8
-You: Johnson, good to see you. Whatcha got for me?
-
-[[Next|P9]]
+<div class="dialogue-box">
+  <div class="character-name">Detective Reid Blackwell</div>
+  Johnson, good to see you. Whatcha got for me?
+  <span class="next-button">
+    [[Next|P9]]
+  </span>
+</div>
 
 :: P9
-Johnson: Hey boss! We've tried finding the dealer but your client wasn't very helpful. His descriptions were vague and he refused to meet with a sketch artist.
-
-[[Next|P10]]
+<div class="dialogue-box">
+  <div class="character-name">Johnson</div>
+  Hey boss! We've tried finding the dealer but your client wasn't very helpful. His descriptions were vague and he refused to meet with a sketch artist.
+  <span class="next-button">
+    [[Next|P10]]
+  </span>
+</div>
 
 :: P10
-You: Yeah, Shadow Man's not the nicest company. Don't take it personally.
-
-[[Next|P11]]
+<div class="dialogue-box">
+  <div class="character-name">Detective Reid Blackwell</div>
+  Yeah, Shadow Man's not the nicest company. Don't take it personally.
+  <span class="next-button">
+    [[Next|P11]]
+  </span>
+</div>
 
 :: P11
-Johnson: Shadow Man?
-
-[[Next|P12]]
+<div class="dialogue-box">
+  <div class="character-name">Johnson</div>
+  Shadow Man?
+  <span class="next-button">
+    [[Next|P12]]
+  </span>
+</div>
 
 :: P12
-You: Gave him a nickname. Makes him less intimidating.
-
-[[Next|P13]]
+<div class="dialogue-box">
+  <div class="character-name">Detective Reid Blackwell</div>
+  Gave him a nickname. Makes him less intimidating.
+  <span class="next-button">
+    [[Next|P13]]
+  </span>
+</div>
 
 :: P13
-Johnson: I dunno, boss. He's still pretty scary.
-
-[[Next|P14]]
+<div class="dialogue-box">
+  <div class="character-name">Johnson</div>
+  I dunno, boss. He's still pretty scary.
+  <span class="next-button">
+    [[Next|P14]]
+  </span>
+</div>
 
 :: P14
-You: You're darn right, he gave me the shivers.
-
-[[Next|P15]]
+<div class="dialogue-box">
+  <div class="character-name">Detective Reid Blackwell</div>
+  You're darn right, he gave me the shivers.
+  <span class="next-button">
+    [[Next|P15]]
+  </span>
+</div>
 
 :: P15
-Johnson: Anyways, we did find some possible contacts that would know about his whereabouts.
-
-[[Next|P15.4]]
+<div class="dialogue-box">
+  <div class="character-name">Johnson</div>
+  Anyways, we did find some possible contacts that would know about his whereabouts.
+  <span class="next-button">
+    [[Next|P15.4]]
+  </span>
+</div>
 
 :: P15.4
-// He hands you three case files, talking amiably as you flip through them.
-
-[[Next|P16]]
+<div class="dialogue-box">
+  // He hands you three case files, talking amiably as you flip through them. //
+  <span class="next-button">
+    [[Next|P16]]
+  </span>
+</div>
 
 :: P16
-Katrina Kordoff - She owns that luxurious bar on South Street. She's a huge gossip and knows everyone's business. Rumor is she can charm anyone with those pretty eyes of hers. Be careful though! I heard she's a dangerous one.
-
-[[Next|P17]]
+<div class="dialogue-box">
+  <div class="character-name">Johnson</div>
+  Katrina Kordoff - // She owns that luxurious bar on South Street. She's a huge gossip and knows everyone's business. Rumor is she can charm anyone with those pretty eyes of hers. Be careful though! I heard she's a dangerous one. //
+  <span class="next-button">
+    [[Next|P17]]
+  </span>
+</div>
 
 :: P17
-Jayl Sael - Most well known (and feared) crimunal this side of the city. An accomplished bounty hunter who can find anyone and everyone. He seems like a very shady fellow. Keeps to himself. But if you need to locate someone without any clues? He's your guy.
-
-[[Next|P18]]
+<div class="dialogue-box">
+  <div class="character-name">Johnson</div>
+  Jayl Sael - // Most well known (and feared) crimunal this side of the city. An accomplished bounty hunter who can find anyone and everyone. He seems like a very shady fellow. Keeps to himself. But if you need to locate someone without any clues? He's your guy. //
+  <span class="next-button">
+    [[Next|P18]]
+  </span>
+</div>
 
 :: P18
-Verie Newman - The newest junior officer on the force. Nice kid, bit a chatterbox though. Would probably be able to spill the beans on any recent criminal activity. If you talk to him, you're sure to get some good info that only the police could know. He's on a museum shift tonight, so maybe you can catch him for a chat!
-
-[[Next|P19]]
+<div class="dialogue-box">
+  <div class="character-name">Johnson</div>
+  Verie Newman - // The newest junior officer on the force. Nice kid, bit a chatterbox though. Would probably be able to spill the beans on any recent criminal activity. If you talk to him, you're sure to get some good info that only the police could know. He's on a museum shift tonight, so maybe you can catch him for a chat! //
+  <span class="next-button">
+    [[Next|P19]]
+  </span>
+</div>
 
 :: P19
-Johnson: So, which one are you gonna go after?
-
-[[Katrina Kordoff| K1]]
-
-[[Jayl Sael| J1]]
-
-[[Verie Newman| V1]]
+<div class="dialogue-box">
+  <div class="character-name">Johnson</div>
+  So, which one are you gonna go after?
+  <span class="next-button">
+    [[Katrina Kordoff| K1]] | [[Jayl Sael| J1]] | [[Verie Newman| V1]]
+  </span>
+</div>
 
 :: K1
-// You lift Kordoff's file with interest. A bar, especially one favored by the city's criminals, is a hotspot of information, you think.
-
-[[Next|K2]]
+<div class="dialogue-box">
+  // You lift Kordoff's file with interest. A bar, especially one favored by the city's criminals, is a hotspot of information, you think. //
+  <span class="next-button">
+    [[Next|K2]]
+  </span>
+</div>
 
 :: K2
-// Johnson adjusts his glasses.
-
-[[Next|K3]]
+<div class="dialogue-box">
+  // Johnson adjusts his glasses. //
+  <span class="next-button">
+    [[Next|K3]]
+  </span>
+</div>
 
 :: K3
-Johnson: You sure, boss? Hearsay can only get you so far, not the most pragmatic option.
-
-[[Next|K4]]
+<div class="dialogue-box">
+  <div class="character-name">Johnson</div>
+  // You sure, boss? Hearsay can only get you so far, not the most pragmatic option. //
+  <span class="next-button">
+    [[Next|K4]]
+  </span>
+</div>
 
 :: K4
-You: Dunno. Maybe she's got gossip to uncover?? In my experience, a man is most sincere when he's drunk.
-
-[[Next|K5]]
+<div class="dialogue-box">
+  <div class="character-name">Detective Reid Blackwell</div>
+  Dunno. Maybe she's got more than just gossip. Actual information. 'Cause in my experience, a man is most sincere when he's drunk.
+  <span class="next-button">
+    [[Next|K5]]
+  </span>
+</div>
 
 :: K5
-Johnson: Boss, come on now. You hate alcohol.
-
-[[Next|K6]]
+<div class="dialogue-box">
+  <div class="character-name">Johnson</div>
+  Boss, come on now. You hate alcohol.
+  <span class="next-button">
+    [[Next|K6]]
+  </span>
+</div>
 
 :: K6
-// You chuckle.
-
-[[Next|K7]]
+<div class="dialogue-box">
+  // You chuckle. //
+  <span class="next-button">
+    [[Next|K7]]
+  </span>
+</div>
 
 :: K7
-You: Damn right, Johnson. But still, my gut's telling me it's worth a try.
-
-[[Next|K8]]
+<div class="dialogue-box">
+  <div class="character-name">Detective Reid Blackwell</div>
+  Damn right, Johnson. But still, my gut's telling me it's worth a try.
+  <span class="next-button"> 
+    [[Next|K8]]
+  </span>
+</div>
 
 :: K8
-// Johnson grins excitedly.
-
-[[Next|K9]]
+<div class="dialogue-box">
+  // Johnson grins excitedly. //
+  <span class="next-button">
+    [[Next|K6]]
+  </span>
+</div>
 
 :: K9
-Johnson: Alright, then. Best of luck, Detective Blackwell!
-
-[[Next|K10]]
+<div class="dialogue-box">
+  <div class="character-name">Johnson</div>
+  Alright, then. Best of luck, Detective Blackwell!
+  <span class="next-button"> 
+    [[Next|K10]]
+  </span>
+</div>
 
 :: K10
-~
-
-[[Next|K12]]
+<div class="dialogue-box">
+  ~
+  <span class="next-button">
+    [[Next|K12]]
+  </span>
+</div>
 
 :: K12
-// You stop to admire the outside of The Silk Shot, the sleek and modern bar that's been the talk of the town.
-
-[[Next|K13]]
+<div class="dialogue-box">
+  // You stop to admire the outside of The Silk Shot, the sleek and modern bar that's been the talk of the town. //
+  <span class="next-button">
+    [[Next|K13]]
+  </span>
+</div>
 
 :: K13
 // The neon lights catch your eyes, but it rattles your nerves for reasons you can’t seem explain.
@@ -748,7 +830,7 @@ Johnson: Alright, then. Best of luck, Detective Blackwell!
 [[Next|K14]]
 
 :: K14
-// You open the doOr, passing through the crowd of soft murmurs.
+// You open the door, passing through the crowd of soft murmurs.
 
 [[Next|K15]]
 
