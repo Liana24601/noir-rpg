@@ -825,36 +825,58 @@ body.desert-bg {
 </div>
 
 :: K13
-// The neon lights catch your eyes, but it rattles your nerves for reasons you can’t seem explain.
-
-[[Next|K14]]
+<div class="dialogue-box">
+  // The neon lights catch your eyes, but it rattles your nerves for reasons you can't seem to explain. //
+  <span class="next-button">
+    [[Next|K14]]
+  </span>
+</div>
 
 :: K14
-// You open the door, passing through the crowd of soft murmurs.
-
-[[Next|K15]]
+<div class="dialogue-box">
+  // You open the door, passing through the crowd of soft murmurs. //
+  <span class="next-button">
+    [[Next|K15]]
+  </span>
+</div>
 
 :: K15
-// You approach the bar and absent-mindedly share your order with the bartender as your eyes inspect the customers in their booths.
-
-[[Next|K16]]
+<div class="dialogue-box">
+  // You approach the bar and absent-mindedly share your order with the bartender as your eyes survey the customers in their booths. //
+  <span class="next-button">
+    [[Next|K16]]
+  </span>
+</div>
 
 :: K16
-You: One gin.
-
-[[Next|K17]]
+<div class="dialogue-box">
+  <div class="character-name">Detective Reid Blackwell</div>
+  One gin.
+  <span class="next-button">
+    [[Next|K17]]
+  </span>
+</div>
 
 :: K17
-You: Say, you know if Katrina's around? Need a word.
-
-[[Next|K18]]
+<div class="dialogue-box">
+  <div class="character-name">Detective Reid Blackwell</div>
+  Say, you know if Katrina's around? Need a word.
+  <span class="next-button">
+    [[Next|K18]]
+  </span>
+</div>
 
 :: K18
-// The voice that answers you is not the rough grunt of a bartender.
-
-[[Next|K19]]
+<div class="dialogue-box">
+  // The voice that answers you is not the rough grunt of a bartender. //
+  <span class="next-button">
+    [[Next|K19]]
+  </span>
+</div>
 
 :: K19
-// It is smooth and feminine. Soft and alluring.
+<div class="dialogue-box">
+  // It is smooth and feminine. Soft and alluring. //
+</div>
 
 
