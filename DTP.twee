@@ -42,7 +42,7 @@ body {
     z-index: 100;
   }
   .character-name {
-    color: #c9a86a;
+    color: #696969;
     font-weight: bold;
     font-size: 20px;
     margin-bottom: 2px;
@@ -71,6 +71,10 @@ body {
   .katrina {
     left: 50%;
   }
+
+  .detective {
+    left: 50%;
+  }
 }
 
 body.forest-bg {
@@ -91,9 +95,6 @@ body.desert-bg {
 </div>
 
 :: S1 [desert-bg]
-<div class="character-layer">
-    <img class="character katrina" src="images/katrina.png">
-</div>
 <div class="dialogue-box">
   Violent criminals. Beautiful dames.
   <span class="next-button">
@@ -238,6 +239,9 @@ body.desert-bg {
 </div>
 
 :: S19
+<div class="character-layer">
+    <img class="character detective" src="images/detective.png">
+</div>
 <div class="dialogue-box">
   <div class="character-name">Detective Reid Blackwell</div>
   Well? Say it, spit it out. Haven't got all day.
@@ -288,6 +292,9 @@ body.desert-bg {
 </div>
 
 :: S25
+<div class="character-layer">
+    <img class="character detective" src="images/detective.png">
+</div>
 <div class="dialogue-box">
   <div class="character-name">Detective Reid Blackwell</div>
   Which man?
@@ -314,6 +321,9 @@ body.desert-bg {
 </div>
 
 :: S28
+<div class="character-layer">
+    <img class="character detective" src="images/detective.png">
+</div>
 <div class="dialogue-box">
   <div class="character-name">Detective Reid Blackwell</div>
   Not the fastest bullet in the barrel, are you?
@@ -332,6 +342,9 @@ body.desert-bg {
 </div>
 
 :: S30
+<div class="character-layer">
+    <img class="character detective" src="images/detective.png">
+</div>
 <div class="dialogue-box">
   <div class="character-name">Detective Reid Blackwell</div>
   Huh. A kind drug dealer. That's new.
@@ -367,6 +380,9 @@ body.desert-bg {
 </div>
 
 :: S34
+<div class="character-layer">
+    <img class="character detective" src="images/detective.png">
+</div>
 <div class="dialogue-box">
   <div class="character-name">Detective Reid Blackwell</div>
   And what's that?
@@ -385,6 +401,9 @@ body.desert-bg {
 </div>
 
 :: S37
+<div class="character-layer">
+    <img class="character detective" src="images/detective.png">
+</div>
 <div class="dialogue-box">
   <div class="character-name">Detective Reid Blackwell</div>
   (Fantastic. Not only is he an idiot, he's a sentimental. That's even worse.)
@@ -394,6 +413,9 @@ body.desert-bg {
 </div>
 
 :: S38
+<div class="character-layer">
+    <img class="character detective" src="images/detective.png">
+</div>
 <div class="dialogue-box">
   <div class="character-name">Detective Reid Blackwell</div>
   That's sweet, pal. Really. But why're you here? What do you want from me?
@@ -412,6 +434,9 @@ body.desert-bg {
 </div>
 
 :: S40
+<div class="character-layer">
+    <img class="character detective" src="images/detective.png">
+</div>
 <div class="dialogue-box">
   <div class="character-name">Detective Reid Blackwell</div>
   From killing you?
@@ -438,6 +463,9 @@ body.desert-bg {
 </div>
 
 :: S43
+<div class="character-layer">
+    <img class="character detective" src="images/detective.png">
+</div>
 <div class="dialogue-box">
   <div class="character-name">Detective Reid Blackwell</div>
   What an odd job. I might have refused if you hadn't promised me such a pretty penny.
@@ -447,6 +475,9 @@ body.desert-bg {
 </div>
 
 :: S44
+<div class="character-layer">
+    <img class="character detective" src="images/detective.png">
+</div>
 <div class="dialogue-box">
   <div class="character-name">Detective Reid Blackwell</div>
   Alright, stranger, I'll do it for you.
@@ -456,6 +487,9 @@ body.desert-bg {
 </div>
 
 :: S45
+<div class="character-layer">
+    <img class="character detective" src="images/detective.png">
+</div>
 <div class="dialogue-box">
   <div class="character-name">Detective Reid Blackwell</div>
   But tell me one thing...what changed your mind? The world ain't a happy place.
@@ -465,6 +499,9 @@ body.desert-bg {
 </div>
 
 :: S47
+<div class="character-layer">
+    <img class="character detective" src="images/detective.png">
+</div>
 <div class="dialogue-box">
   <div class="character-name">Detective Reid Blackwell</div>
   Why stay?
@@ -492,6 +529,9 @@ body.desert-bg {
 </div>
 
 :: S51
+<div class="character-layer">
+    <img class="character detective" src="images/detective.png">
+</div>
 <div class="dialogue-box">
   <div class="character-name">Detective Reid Blackwell</div>
   (Damn it. I hate a guy who talks in riddles. Shouldn't have asked him in the first place.)
@@ -501,6 +541,9 @@ body.desert-bg {
 </div>
 
 :: S52
+<div class="character-layer">
+    <img class="character detective" src="images/detective.png">
+</div>
 <div class="dialogue-box">
   <div class="character-name">Detective Reid Blackwell</div>
   But what was the question?
@@ -616,6 +659,9 @@ body.desert-bg {
 </div>
 
 :: P8
+<div class="character-layer">
+    <img class="character detective" src="images/detective.png">
+</div>
 <div class="dialogue-box">
   <div class="character-name">Detective Reid Blackwell</div>
   Johnson, good to see you. Whatcha got for me?
@@ -634,6 +680,9 @@ body.desert-bg {
 </div>
 
 :: P10
+<div class="character-layer">
+    <img class="character detective" src="images/detective.png">
+</div>
 <div class="dialogue-box">
   <div class="character-name">Detective Reid Blackwell</div>
   Yeah, Shadow Man's not the nicest company. Don't take it personally.
@@ -652,6 +701,9 @@ body.desert-bg {
 </div>
 
 :: P12
+<div class="character-layer">
+    <img class="character detective" src="images/detective.png">
+</div>
 <div class="dialogue-box">
   <div class="character-name">Detective Reid Blackwell</div>
   Gave him a nickname. Makes him less intimidating.
@@ -670,6 +722,9 @@ body.desert-bg {
 </div>
 
 :: P14
+<div class="character-layer">
+    <img class="character detective" src="images/detective.png">
+</div>
 <div class="dialogue-box">
   <div class="character-name">Detective Reid Blackwell</div>
   You're darn right, he gave me the shivers.
@@ -707,7 +762,7 @@ body.desert-bg {
 :: P17
 <div class="dialogue-box">
   <div class="character-name">Johnson</div>
-  Jayl Sael - // Most well known (and feared) crimunal this side of the city. An accomplished bounty hunter who can find anyone and everyone. He seems like a very shady fellow. Keeps to himself. But if you need to locate someone without any clues? He's your guy. //
+  Jayl Sael - // Most well known (and feared) criminal this side of the city. An accomplished bounty hunter who can find anyone and everyone. He seems like a very shady fellow. Keeps to himself. But if you need to locate someone without any clues? He's your guy. //
   <span class="next-button">
     [[Next|P18]]
   </span>
@@ -731,6 +786,116 @@ body.desert-bg {
   </span>
 </div>
 
+:: J1
+<div class="dialogue-box">
+  // You lift Sael's file with interest. //
+  <span class="next-button">
+    [[Next|J2]]
+  </span>
+</div>
+
+:: J2
+<div class="dialogue-box">
+  // Johnson sighs, tired. //
+  <span class="next-button">
+    [[Next|J3]]
+  </span>
+</div>
+
+:: J3
+<div class="dialogue-box">
+  <div class="character-name">Johnson</div>
+  Of course. God forbid Detective Blackwell takes the easy way out.
+  <span class="next-button">
+    [[Next|J4]]
+  </span>
+</div>
+
+:: J4
+<div class="dialogue-box">
+  // You laugh. //
+  <span class="next-button">
+    [[Next|J5]]
+  </span>
+</div>
+
+:: J5
+<div class="dialogue-box">
+  <div class="character-name">Detective Reid Blackwell</div>
+  Can you blame me for wanting a little adventure?
+  <span class="next-button">
+   [[Next|J6]]
+  </span>
+</div>
+
+:: J6
+<div class="dialogue-box">
+  <div class="character-name">Detective Reid Blackwell</div>
+  Thought you knew me better than that.
+  <span class="next-button">
+    [[Next|J7]]
+  </span>
+</div>
+
+:: J7
+<div class="dialogue-box">
+  // Johnson slowly removes his glasses. He then takes a hankerchief from his pocket, and wipes them with the dejected air of someone who already knows they can't win. //
+  <span class="next-button">
+    [[Next|J8]]
+  </span>
+</div>
+
+:: J9
+<div class="dialogue-box">
+  <div class="character-name">Johnson</div>
+  Whatever you say, Boss.
+  <span class="next-button">
+    [[Next|J10]]
+  </span>
+</div>
+
+:: J10
+<div class="dialogue-box">
+  // He puts them back on and peers at you intently.//
+  <span class="next-button">
+    [[Next|J11]]
+  </span>
+</div>
+
+:: J11
+<div class="dialogue-box">
+  <div class="character-name">Johnon</div>
+  Just make sure you're careful. Little known is about him. Even my research didn't get me far.
+  <span class="next-button">
+    [[Next|J12]]
+  </span>
+</div>
+
+:: J12
+<div class="dialogue-box">
+  // You chuckle. //
+  <span class="next-button">
+    [[Next|J13]]
+  </span>
+</div>
+
+:: J13
+<div class="dialogue-box">
+  <div class="character-name">Detective Reid Blackwell</div>
+  Johnson, my good man...
+  <span class="charcter-name">
+    [[Next|J14]]
+  </span>
+</div>
+
+:: J14
+<div class="dialogue-box">
+  You worry too much.
+  <span class="character-name">
+    [[Next|J15]]
+  </span>
+</div>
+
 :: K1
 <div class="dialogue-box">
   // You lift Kordoff's file with interest. A bar, especially one favored by the city's criminals, is a hotspot of information, you think. //
@@ -750,13 +915,16 @@ body.desert-bg {
 :: K3
 <div class="dialogue-box">
   <div class="character-name">Johnson</div>
-  // You sure, boss? Hearsay can only get you so far, not the most pragmatic option. //
+  You sure, boss? Hearsay can only get you so far, not the most pragmatic option.
   <span class="next-button">
     [[Next|K4]]
   </span>
 </div>
 
 :: K4
+<div class="character-layer">
+    <img class="character detective" src="images/detective.png">
+</div>
 <div class="dialogue-box">
   <div class="character-name">Detective Reid Blackwell</div>
   Dunno. Maybe she's got more than just gossip. Actual information. 'Cause in my experience, a man is most sincere when he's drunk.
@@ -783,6 +951,9 @@ body.desert-bg {
 </div>
 
 :: K7
+<div class="character-layer">
+    <img class="character detective" src="images/detective.png">
+</div>
 <div class="dialogue-box">
   <div class="character-name">Detective Reid Blackwell</div>
   Damn right, Johnson. But still, my gut's telling me it's worth a try.
@@ -795,7 +966,7 @@ body.desert-bg {
 <div class="dialogue-box">
   // Johnson grins excitedly. //
   <span class="next-button">
-    [[Next|K6]]
+    [[Next|K9]]
   </span>
 </div>
 
@@ -849,6 +1020,9 @@ body.desert-bg {
 </div>
 
 :: K16
+<div class="character-layer">
+    <img class="character detective" src="images/detective.png">
+</div>
 <div class="dialogue-box">
   <div class="character-name">Detective Reid Blackwell</div>
   One gin.
@@ -858,6 +1032,9 @@ body.desert-bg {
 </div>
 
 :: K17
+<div class="character-layer">
+    <img class="character detective" src="images/detective.png">
+</div>
 <div class="dialogue-box">
   <div class="character-name">Detective Reid Blackwell</div>
   Say, you know if Katrina's around? Need a word.
@@ -877,6 +1054,16 @@ body.desert-bg {
 :: K19
 <div class="dialogue-box">
   // It is smooth and feminine. Soft and alluring. //
+  <span class="next-button">
+    [[Next|K20]]
+  </span>
 </div>
 
-
+:: K20
+<div class="dialogue-box">
+  <div class="character-name">???</div>
+  She's right here, handsome.
+  <span class="next-button">
+    [[Next|K21]]
+  </span>
+</div>
