@@ -1067,3 +1067,78 @@ body.desert-bg {
     [[Next|K21]]
   </span>
 </div>
+
+:: K21
+<div class="dialogue-box">
+  // It can't be. You spin around in your chair to see Katrina Kordoff, in the flesh. //
+  <span class="next-button">
+    [[Next|K22]]
+  </span>
+</div>
+
+:: K22
+<div class="dialogue-box">
+  // The woman behind the bar is a vision, no doubt about it. //
+  <span class="next-button">
+    [[Next|K23]]
+  </span>
+</span>
+
+:: K23
+<div class="dialogue-box">
+  // You take in her hair, a mess of bright auburn waves that curl like the embers of a dying fire. You stare into her green, tigr-like eyes. //
+  <span class="next-button">
+    [[Next|K24]]
+  </span>
+</span>
+
+:: K24
+<div class="dialogue-box">
+  // Goddamn... //
+  <span class="next-button">
+    [[Next|K25]]
+  </span>
+</span>
+
+:: K25
+<div class="dialogue-box">
+  // The photos didn't do her justice. //
+  <span class="next-button">
+    [[Next|K26]]
+  </span>
+</div>
+
+:: K26
+<div class="dialogue-box">
+  <div class="character-name">Katrina Kordoff</div>
+  If you're done staring, I'll be right up with your drink.
+  <span class="next-button">
+    [[Next|K27]]
+  </span>
+</span>
+
+:: K27
+<div class="dialogue-box">
+  // You force yourself to concentrate. //
+  <span class="next-button">
+    [[Next|K28]]
+  </span>
+</span>
+
+:: K28
+<div class="dialogue-box">
+  <div class="character-name">Detective Reid Blackwell</div>
+  Huh. Didn't know a gal like you could make a mean gin.
+  <span class="next-button">
+    [[Next|K29]]
+  </span>
+</div>
+
+:: K30
+<div class="dialogue-box">
+  <div class="character-name">Katrina Kordoff</div>
+  Didn't know detectives were allowed to drink on the job.
+  <span class="next-button">
+    [[Next|K31]]
+  </span>
+</div>
