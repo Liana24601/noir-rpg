@@ -813,6 +813,15 @@ body.desert-bg {
   <div class="character-name">Johnson</div>
   Jayl Sael - // Most well known (and feared) criminal this side of the city. An accomplished bounty hunter who can find anyone and everyone. He seems like a very shady fellow. Keeps to himself. But if you need to locate someone without any clues? He's your guy. //
   <span class="next-button">
+    [[Next|P18]]
+  </span>
+</div>
+
+:: P18
+<div class="dialogue-box">
+  <div class="character-name">Johnson</div>
+  Verie Norman - // The newest junior officer on the force. Nice kid, a bit of a chatterbox. If you talk to him, you're sure to get some good info that only the police could know. He’s on a museum shift tonight, so maybe you can catch him! //
+  <span class="next-button">
     [[Next|P19]]
   </span>
 </div>
@@ -822,7 +831,74 @@ body.desert-bg {
   <div class="character-name">Johnson</div>
   So, which one are you gonna go after?
   <span class="next-button">
-    [[Katrina Kordoff| K1]] | [[Jayl Sael| J1]]
+    [[Katrina Kordoff| K1]] | [[Jayl Sael| J1]] | [[Verie Norman| V1]]
+  </span>
+</div>
+
+:: V1
+<div class="dialogue-box">
+  // You lift Verie's file, eyeing it with mild interest. //
+  <span class="next-button">
+    [[Next|V2]]
+  </span>
+</div>
+
+:: V2
+<div class="dialogue-box">
+  // Johnson shakes his head. //
+  <span class="next-button">
+    [[Next|V3]]
+  </span>
+</div>
+
+:: V3
+<div class="dialogue-box">
+  <div class="character-name">Johnson</div>
+  I don't recommend it, Boss. You might run into...the Chief. Think he's also on shift right now.
+  <span class="next-button">
+    [[Next|V4]]
+  </span>
+</div>
+
+:: V4
+<div class="character-layer">
+    <img class="character detective" src="images/detective.png">
+</div>
+<div class="dialogue-box">
+  // You groan. //
+  <span class="next-button">
+    [[Next|V5]]
+  </span>
+</div>
+
+:: V5
+<div class="character-layer">
+    <img class="character detective" src="images/detective.png">
+</div>
+<div class="dialogue-box">
+  // You don't like that man in the slightest. He disagrees with your bizarre methods, and tends to get needlessly involved in your cases. //
+  <span class="next-button">
+    [[Next|V6]]
+  </span>
+</div>
+
+:: V6
+<div class="character-layer">
+    <img class="character detective" src="images/detective.png">
+</div>
+<div class="dialogue-box">
+  <div class="character-name">Detective Reid Blackwell</div>
+  Damn shame. Who else?
+  <span class="next-button">
+    [[Next|V7]]
+  </span>
+</div>
+
+:: V7
+<div class="dialogue-box">
+  // Johnson gestures to the other two files, waiting to be opened. //
+  <span class="next-button">
+    [[Next|P19]]
   </span>
 </div>
 
