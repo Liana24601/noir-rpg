@@ -75,6 +75,10 @@ body {
   .detective {
     left: 50%;
   }
+
+  .stranger {
+    left: 50%;
+  }
 }
 
 body.forest-bg {
@@ -251,6 +255,9 @@ body.desert-bg {
 </div>
 
 :: S20
+<div class="character-layer">
+    <img class="character stranger" src="images/stranger.png">
+</div>
 <div class="dialogue-box">
   // The stranger who sits in front of you is peculiar to say the least. //
   <span class="next-button">
@@ -259,6 +266,9 @@ body.desert-bg {
 </div>
 
 :: S21
+<div class="character-layer">
+    <img class="character stranger" src="images/stranger.png">
+</div>
 <div class="dialogue-box">
   // The blinds block the light and cover his face in shadow. //
   <span class="next-button">
@@ -267,6 +277,9 @@ body.desert-bg {
 </div>
 
 :: S22
+<div class="character-layer">
+    <img class="character stranger" src="images/stranger.png">
+</div>
 <div class="dialogue-box">
   // You cannot identify any of his features. //
   <span class="next-button">
@@ -275,6 +288,9 @@ body.desert-bg {
 </div>
 
 :: S23
+<div class="character-layer">
+    <img class="character stranger" src="images/stranger.png">
+</div>
 <div class="dialogue-box">
   // Something tells you he prefers it that way. //
   <span class="next-button">
@@ -283,6 +299,9 @@ body.desert-bg {
 </div>
 
 :: S24
+<div class="character-layer">
+    <img class="character stranger" src="images/stranger.png">
+</div>
 <div class="dialogue-box">
   <div class="character-name">???</div>
   Well, two weeks ago, I paid a man to kill me. Gave him a month. No day. No time.
@@ -304,6 +323,9 @@ body.desert-bg {
 </div>
 
 :: S26
+<div class="character-layer">
+    <img class="character stranger" src="images/stranger.png">
+</div>
 <div class="dialogue-box">
   <div class="character-name">???</div>
   ...My drug dealer.
@@ -333,6 +355,9 @@ body.desert-bg {
 </div>
 
 :: S29
+<div class="character-layer">
+    <img class="character stranger" src="images/stranger.png">
+</div>
 <div class="dialogue-box">
   <div class="character-name">???</div>
   Don't. It was a dark time for me, and I needed someone kind to do it. Dug was the kindest man I ever met.
@@ -362,6 +387,9 @@ body.desert-bg {
 </div>
 
 :: S32
+<div class="character-layer">
+    <img class="character stranger" src="images/stranger.png">
+</div>
 <div class="dialogue-box">
   <div class="character-name">???</div>
   A man like you would never understand. Sitting happily atop your ugly high horse.
@@ -371,6 +399,9 @@ body.desert-bg {
 </div>
 
 :: S33
+<div class="character-layer">
+    <img class="character stranger" src="images/stranger.png">
+</div>
 <div class="dialogue-box">
   <div class="character-name">???</div>
   I wanted to drown. I wanted to end me. But then, I found what I needed.
@@ -392,6 +423,9 @@ body.desert-bg {
 </div>
 
 :: S36
+<div class="character-layer">
+    <img class="character stranger" src="images/stranger.png">
+</div>
 <div class="dialogue-box">
   <div class="character-name">???</div>
   Hope.
@@ -425,6 +459,9 @@ body.desert-bg {
 </div>
 
 :: S39
+<div class="character-layer">
+    <img class="character stranger" src="images/stranger.png">
+</div>
 <div class="dialogue-box">
   <div class="character-name">???</div>
   I need you to find him. I need you to stop him.
@@ -446,6 +483,9 @@ body.desert-bg {
 </div>
 
 :: S41
+<div class="character-layer">
+    <img class="character stranger" src="images/stranger.png">
+</div>
 <div class="dialogue-box">
   <div class="character-name">???</div>
   Yes.
@@ -511,6 +551,9 @@ body.desert-bg {
 </div>
 
 :: S48
+<div class="character-layer">
+    <img class="character stranger" src="images/stranger.png">
+</div>
 <div class="dialogue-box">
   <div class="character-name">???</div>
   There was...a question I needed answered. I was lost. My life was empty.
@@ -520,6 +563,9 @@ body.desert-bg {
 </div>
 
 :: S49 
+<div class="character-layer">
+    <img class="character stranger" src="images/stranger.png">
+</div>
 <div class="dialogue-box">
   <div class="character-name">???</div>
   But after I filled it with other things, my life became full again. I didn't need the answer anymore.
@@ -585,6 +631,9 @@ body.desert-bg {
 </div>
 
 :: S57
+<div class="character-layer">
+    <img class="character stranger" src="images/stranger.png">
+</div>
 <div class="dialogue-box">
   <div class="character-name">???</div>
   Can a debt of blood...
@@ -744,7 +793,7 @@ body.desert-bg {
 
 :: P15.4
 <div class="dialogue-box">
-  // He hands you three case files, talking amiably as you flip through them. //
+  // He hands you two case files, talking amiably as you flip through them. //
   <span class="next-button">
     [[Next|P16]]
   </span>
@@ -764,15 +813,6 @@ body.desert-bg {
   <div class="character-name">Johnson</div>
   Jayl Sael - // Most well known (and feared) criminal this side of the city. An accomplished bounty hunter who can find anyone and everyone. He seems like a very shady fellow. Keeps to himself. But if you need to locate someone without any clues? He's your guy. //
   <span class="next-button">
-    [[Next|P18]]
-  </span>
-</div>
-
-:: P18
-<div class="dialogue-box">
-  <div class="character-name">Johnson</div>
-  Verie Newman - // The newest junior officer on the force. Nice kid, bit a chatterbox though. Would probably be able to spill the beans on any recent criminal activity. If you talk to him, you're sure to get some good info that only the police could know. He's on a museum shift tonight, so maybe you can catch him for a chat! //
-  <span class="next-button">
     [[Next|P19]]
   </span>
 </div>
@@ -782,7 +822,7 @@ body.desert-bg {
   <div class="character-name">Johnson</div>
   So, which one are you gonna go after?
   <span class="next-button">
-    [[Katrina Kordoff| K1]] | [[Jayl Sael| J1]] | [[Verie Newman| V1]]
+    [[Katrina Kordoff| K1]] | [[Jayl Sael| J1]]
   </span>
 </div>
 
@@ -796,7 +836,7 @@ body.desert-bg {
 
 :: J2
 <div class="dialogue-box">
-  // Johnson sighs, tired. //
+  // Johnson sighs wearily. //
   <span class="next-button">
     [[Next|J3]]
   </span>
@@ -820,6 +860,9 @@ body.desert-bg {
 </div>
 
 :: J5
+<div class="character-layer">
+    <img class="character detective" src="images/detective.png">
+</div>
 <div class="dialogue-box">
   <div class="character-name">Detective Reid Blackwell</div>
   Can you blame me for wanting a little adventure?
@@ -829,6 +872,9 @@ body.desert-bg {
 </div>
 
 :: J6
+<div class="character-layer">
+    <img class="character detective" src="images/detective.png">
+</div>
 <div class="dialogue-box">
   <div class="character-name">Detective Reid Blackwell</div>
   Thought you knew me better than that.
@@ -841,7 +887,7 @@ body.desert-bg {
 <div class="dialogue-box">
   // Johnson slowly removes his glasses. He then takes a hankerchief from his pocket, and wipes them with the dejected air of someone who already knows they can't win. //
   <span class="next-button">
-    [[Next|J8]]
+    [[Next|J9]]
   </span>
 </div>
 
@@ -880,10 +926,13 @@ body.desert-bg {
 </div>
 
 :: J13
+<div class="character-layer">
+    <img class="character detective" src="images/detective.png">
+</div>
 <div class="dialogue-box">
   <div class="character-name">Detective Reid Blackwell</div>
   Johnson, my good man...
-  <span class="charcter-name">
+  <span class="next-button">
     [[Next|J14]]
   </span>
 </div>
@@ -891,10 +940,93 @@ body.desert-bg {
 :: J14
 <div class="dialogue-box">
   You worry too much.
-  <span class="character-name">
+  <span class="next-button">
     [[Next|J15]]
   </span>
 </div>
+
+:: J15
+<div class="dialogue-box">
+  ~
+  <span class="next-button">
+    [[Next|J16]]
+  </span>
+</div>
+
+:: J16
+<div class="dialogue-box">
+  // It's fourteen minutes to midnight when your leather oxfords touch the damp cement grounds of the docks. //
+  <span class="next-button">
+    [[Next|J17]]
+  </span>
+</div>
+
+:: J17
+<div class="dialogue-box">
+  // You are acutely aware of the dangers of arriving at such a late hour. Johnson assured you that this was the best time to meet criminals, so you take him at his word. //
+  <span class="next-button">
+    [[Next|J18]]
+  </span>
+</div>
+
+:: J18
+<div class="dialogue-box">
+  // Tension hangs in the air, and the fog does as well, hiding parts of the dock from your vision. //
+  <span class="next-button">
+    [[Next|J19]]
+  </span>
+</div>
+
+:: J19
+<div class="dialogue-box">
+  // However, it is not all silent. You hear grunts of labor echo every few minutes. //
+  <span class="next-button">
+    [[Next|J20]]
+  </span>
+</div>
+
+:: J20
+<div class="dialogue-box">
+  // But this sound does not comfort you. It means danger lies near. //
+  <span class="next-button">
+    [[Next|J21]]
+  </span>
+</div>
+
+:: J21
+<div class="dialogue-box">
+  // Rough, burly, and sour looking characters scowl at you as you pass, lurking in dark corners. //
+  <span class="next-button">
+    [[Next|J22]]
+  </span>
+</div>
+
+:: J22
+<div class="dialogue-box">
+  // Your nerves rise. You're not quite as tall as them. //
+  <span class="next-button">
+    [[Next|J23]]
+  </span>
+</div>
+
+:: J23
+<div class="dialogue-box">
+  // As you reach the end of the dock, the sounds of deep laughter rise towards you. //
+  <span class="next-button">
+    [[Next|J24]]
+  </span>
+</div>
+
+:: J24
+<div class="dialogue-box">
+  // The fog clears to reveal a group of hardened criminals in various tattoos and striking attire, sitting in metal folding chairs around a large wooden crate, currently serving as a table. //
+  <span class="next-button">
+    [[Next|J25]]
+  </span>
+</div>
+
+:: J25
+jsjsj
 
 :: K1
 <div class="dialogue-box">
@@ -989,7 +1121,7 @@ body.desert-bg {
 
 :: K12
 <div class="dialogue-box">
-  // You stop to admire the outside of The Silk Shot, the sleek and modern bar that's been the talk of the town. //
+  // You stop to admire the outside of The Silk Shot, the sleek and modern bar, the current the talk of the town. //
   <span class="next-button">
     [[Next|K13]]
   </span>
@@ -1082,15 +1214,15 @@ body.desert-bg {
   <span class="next-button">
     [[Next|K23]]
   </span>
-</span>
+</div>
 
 :: K23
 <div class="dialogue-box">
-  // You take in her hair, a mess of bright auburn waves that curl like the embers of a dying fire. You stare into her green, tigr-like eyes. //
+  // You take in her hair, a mess of bright auburn waves that curl like the embers of a dying fire. You stare into her green, tiger-like eyes. //
   <span class="next-button">
     [[Next|K24]]
   </span>
-</span>
+</div>
 
 :: K24
 <div class="dialogue-box">
@@ -1098,9 +1230,12 @@ body.desert-bg {
   <span class="next-button">
     [[Next|K25]]
   </span>
-</span>
+</div>
 
 :: K25
+<div class="character-layer">
+    <img class="character katrina" src="images/katrina.png">
+</div>
 <div class="dialogue-box">
   // The photos didn't do her justice. //
   <span class="next-button">
@@ -1109,13 +1244,16 @@ body.desert-bg {
 </div>
 
 :: K26
+<div class="character-layer">
+    <img class="character katrina" src="images/katrina.png">
+</div>
 <div class="dialogue-box">
   <div class="character-name">Katrina Kordoff</div>
   If you're done staring, I'll be right up with your drink.
   <span class="next-button">
     [[Next|K27]]
   </span>
-</span>
+</div>
 
 :: K27
 <div class="dialogue-box">
@@ -1123,22 +1261,108 @@ body.desert-bg {
   <span class="next-button">
     [[Next|K28]]
   </span>
-</span>
+</div>
 
 :: K28
+<div class="character-layer">
+    <img class="character detective" src="images/detective.png">
+</div>
 <div class="dialogue-box">
   <div class="character-name">Detective Reid Blackwell</div>
   Huh. Didn't know a gal like you could make a mean gin.
   <span class="next-button">
-    [[Next|K29]]
+    [[Next|K30]]
   </span>
 </div>
 
 :: K30
+<div class="character-layer">
+    <img class="character katrina" src="images/katrina.png">
+</div>
 <div class="dialogue-box">
   <div class="character-name">Katrina Kordoff</div>
   Didn't know detectives were allowed to drink on the job.
   <span class="next-button">
     [[Next|K31]]
+  </span>
+</div>
+
+:: K31
+<div class="character-layer">
+    <img class="character detective" src="images/detective.png">
+</div>
+<div class="dialogue-box">
+  <div class="character-name">Detective Reid Blackwell</div>
+  Hell, we indulge from time to time. Especially if the drink's coming from a beautiful dame like yourself.
+  <span class="next-button">
+    [[Next|K32]]
+  </span>
+</div>
+
+:: K32
+<div class="dialogue-box">
+  // You stifle the embarrassment rising in your stomach. Shit, why'd you say that? //
+  <span class="next-button">
+    [[Next|K33]]
+  </span>
+</div>
+
+:: K33
+<div class="dialogue-box">
+  // But it seems the line lands. Katrina rolls her eyes, but fails to hide a smile forming upon her lipsticked mouth. //
+  <span class="next-button">
+    [[Next|K34]]
+  </span>
+</div>
+
+:: K34
+<div class="character-layer">
+    <img class="character katrina" src="images/katrina.png">
+</div>
+<div class="dialogue-box">
+  <div class="character-name">Katrina Kordoff</div>
+  Detective...I know you're probably not one for alcohol. What’s the real reason you’re here?
+  <span class="next-button">
+    [[Next|K35]]
+  </span>
+</div>
+
+:: K35
+<div class="dialogue-box">
+  // You lower your voice. //
+  <span class="next-button">
+    [[Next|K36]]
+  </span>
+</div>
+
+:: K36
+<div class="character-layer">
+    <img class="character detective" src="images/detective.png">
+</div>
+<div class="dialogue-box">
+  <div class="character-name">Detective Reid Blackwell</div>
+  Listen...I need you to help me find somebody. Somebody underground, good at hiding. And I believe, you may know him. Your customers aren't all on the straught and narrow.
+  <span class="next-button">
+    [[Next|K37]]
+  </span>
+</div>
+
+:: K37
+<div class="character-layer">
+    <img class="character detective" src="images/detective.png">
+</div>
+<div class="dialogue-box">
+  <div class="character-name">Detective Reid Blackwell</div>
+  And if I may say...this bar itself isn't so crystal clear in the checkbooks either.
+  <span class="next-button">
+    [[Next|K38]]
+  </span>
+</div>
+
+:: K38
+<div class="dialogue-box">
+  // She raises an eyebrow. //
+  <span class="next-button">
+    [[Next|K39]]
   </span>
 </div>
